@@ -2,8 +2,9 @@
 
 System requirement
 ============================
-Protege 5.5.0
-Hermes Reasoner
+Protege 5.5.0 
+
+HermiT Reasoner
 
 Feedback
 =============================
