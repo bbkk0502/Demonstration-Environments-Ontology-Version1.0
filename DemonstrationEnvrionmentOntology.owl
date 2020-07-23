@@ -17,10 +17,10 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.0</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#Actors"/>
+        <Class IRI="#Actor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Assessment_and_diagnosis"/>
@@ -53,7 +53,7 @@
         <Class IRI="#Demonstration-scale"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Demonstration_Plant"/>
@@ -74,10 +74,16 @@
         <Class IRI="#Educational_organization"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Electronic_device"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Enabler-driven"/>
     </Declaration>
     <Declaration>
         <Class IRI="#End-user"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engineer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Engineering"/>
@@ -92,7 +98,7 @@
         <Class IRI="#Facilitator"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FinancialTechnology"/>
+        <Class IRI="#Finance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Formal_organization"/>
@@ -120,6 +126,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Industrial-scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industrial_Living_Lab"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Informal_organization"/>
@@ -218,9 +227,6 @@
         <Class IRI="#Pilot_Plant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Policy_making"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Private_sector"/>
     </Declaration>
     <Declaration>
@@ -228,9 +234,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Product"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Product_development"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Production-scale"/>
@@ -269,9 +272,6 @@
         <Class IRI="#Researcher"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rural_development"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Sandbox"/>
     </Declaration>
     <Declaration>
@@ -279,9 +279,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Service"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Service_development"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Short-term"/>
@@ -296,10 +293,10 @@
         <Class IRI="#Small-scale"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Solution"/>
+        <Class IRI="#Social_Living_Lab"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Solution_development"/>
+        <Class IRI="#Solution"/>
     </Declaration>
     <Declaration>
         <Class IRI="#State"/>
@@ -309,9 +306,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#System"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#System_development"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TangibleOutcome"/>
@@ -333,9 +327,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Urban_Living_Lab"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Urban_development"/>
     </Declaration>
     <Declaration>
         <Class IRI="#User-driven"/>
@@ -377,6 +368,9 @@
         <Class IRI="#emulation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#expandable"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#facilitation"/>
     </Declaration>
     <Declaration>
@@ -416,6 +410,9 @@
         <Class IRI="#locomotive"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#low-cost"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#managerial"/>
     </Declaration>
     <Declaration>
@@ -449,6 +446,12 @@
         <Class IRI="#practical"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#preliminary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#programmable"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#rapid"/>
     </Declaration>
     <Declaration>
@@ -459,6 +462,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#reliable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reproducible"/>
     </Declaration>
     <Declaration>
         <Class IRI="#safeguarded"/>
@@ -503,16 +509,13 @@
         <Class IRI="#﻿Microelectronic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#﻿extensible"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#﻿interoperable"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#﻿reproducible"/>
+        <Class IRI="#Business&amp;Economics"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Business&amp;Economics"/>
+        <Class IRI="#Energy&amp;Fuels"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hardware&amp;Software"/>
@@ -521,19 +524,10 @@
         <Class IRI="#LegalAffairs&amp;Regulations"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Apply"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#InitiatedBy"/>
+        <ObjectProperty IRI="#Applies"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#SizeComparison"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#UsedIn"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#arePeopleOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasActor"/>
@@ -575,10 +569,13 @@
         <ObjectProperty IRI="#hasValue"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isActivityOf"/>
+        <ObjectProperty IRI="#isActorOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isAppliedin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCharacteristicOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isComponentOf"/>
@@ -587,10 +584,25 @@
         <ObjectProperty IRI="#isEnvironmentOf"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isInitiatedBy"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isLargerThan"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isLifespanOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectiveOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOutcomeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProcessCharacteristicOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRequirementCharacteristicOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isSizeScaleOf"/>
@@ -599,10 +611,19 @@
         <ObjectProperty IRI="#isSmallerThan"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isStateCharacteristicOf"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isToolOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isValueOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ForSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ForTime"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Android"/>
@@ -617,10 +638,19 @@
         <NamedIndividual IRI="#City"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Cloud_architectures"/>
+        <NamedIndividual IRI="#Converter"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cyber-physical_hardware"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Demodulator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Demonstration_Plant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gasifier"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hobby_group"/>
@@ -639,6 +669,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Local_housing_community"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Machine_operator"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Malware_analysis"/>
@@ -662,7 +695,7 @@
         <NamedIndividual IRI="#Policy"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Product_development"/>
+        <NamedIndividual IRI="#Processor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Proof-of-concept"/>
@@ -671,19 +704,25 @@
         <NamedIndividual IRI="#Raspberry_Pi"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Reactor"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Research_institution"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Resident"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Rules_regulation_legislation_testing"/>
+        <NamedIndividual IRI="#Robotics"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Simulation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Software_developer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steam_generator"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Student"/>
@@ -699,6 +738,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Vulnerability_assessment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wire_cutter"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wireless_communication"/>
@@ -810,27 +852,6 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Outcome"/>
-        <ObjectUnionOf>
-            <Class IRI="#Concept"/>
-            <Class IRI="#Design"/>
-            <Class IRI="#Intellectual_Property_Right"/>
-            <Class IRI="#Knowledge"/>
-            <Class IRI="#Product"/>
-            <Class IRI="#Prototype"/>
-            <Class IRI="#Service"/>
-            <Class IRI="#Solution"/>
-            <Class IRI="#System"/>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Outcome"/>
-        <ObjectUnionOf>
-            <Class IRI="#IntangibleOutcome"/>
-            <Class IRI="#TangibleOutcome"/>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Pilot-Scale-Plant"/>
         <Class IRI="#Pilot_Line"/>
     </EquivalentClasses>
@@ -843,8 +864,15 @@
         <Class IRI="#Pilot_Plant"/>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="#Actors"/>
+        <Class IRI="#Actor"/>
         <Class IRI="#Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApplicationDomain"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Applies"/>
+            <Class IRI="#DemonstrationEnvironment"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Assessment_and_diagnosis"/>
@@ -867,7 +895,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Biochemistry"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Characteristics"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isCharacteristicOf"/>
+            <Class IRI="#DemonstrationEnvironment"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Commercial-scale"/>
@@ -878,8 +913,15 @@
         <Class IRI="#Informal_organization"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Component"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isComponentOf"/>
+            <Class IRI="#DemonstrationEnvironment"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ComputerScience"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Concept"/>
@@ -908,36 +950,36 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasCharacteristic"/>
             <Class IRI="#Characteristics"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasComponent"/>
             <Class IRI="#Component"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasValue"/>
             <Class IRI="#ValuePartition"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#isAppliedin"/>
-            <Class IRI="#ApplicationDomains"/>
+            <Class IRI="#ApplicationDomain"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Demonstration_Plant"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Demonstration_Plant"/>
@@ -947,6 +989,13 @@
                 <Class IRI="#virtual"/>
             </ObjectSomeValuesFrom>
         </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Demonstration_Plant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#Engineer"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Demonstration_Plant"/>
@@ -1012,6 +1061,7 @@
                 <Class IRI="#Biochemistry"/>
                 <Class IRI="#Engineering"/>
                 <Class IRI="#EnvironmentStudy"/>
+                <Class IRI="#Energy&amp;Fuels"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1060,6 +1110,10 @@
         <Class IRI="#Formal_organization"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Electronic_device"/>
+        <Class IRI="#Tool_and_facility"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Enabler-driven"/>
         <Class IRI="#Living_Lab"/>
     </SubClassOf>
@@ -1083,20 +1137,6 @@
             <ObjectProperty IRI="#hasStateCharacteristic"/>
             <Class IRI="#territorial"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Enabler-driven"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#isAppliedin"/>
-            <Class IRI="#PublicAffairs"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Enabler-driven"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#InitiatedBy"/>
-            <Class IRI="#Public_organization"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Enabler-driven"/>
@@ -1130,12 +1170,23 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Enabler-driven"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isInitiatedBy"/>
+            <Class IRI="#Public_organization"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#End-user"/>
         <Class IRI="#People"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Engineer"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Engineering"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Environment"/>
@@ -1143,15 +1194,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EnvironmentStudy"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Facilitator"/>
         <Class IRI="#People"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#FinancialTechnology"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#Finance"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Formal_organization"/>
@@ -1193,6 +1244,13 @@
     <SubClassOf>
         <Class IRI="#General_Sandbox"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRequirementCharacteristic"/>
+            <Class IRI="#reproducible"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Sandbox"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasStateCharacteristic"/>
             <Class IRI="#virtual"/>
         </ObjectSomeValuesFrom>
@@ -1213,7 +1271,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Geomorphology"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Governmental_organization"/>
@@ -1221,19 +1279,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hatchery"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Healthcare"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Incubator"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Industrial-scale"/>
         <Class IRI="#Named"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industrial_Living_Lab"/>
+        <Class IRI="#Utilizer-driven"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Informal_organization"/>
@@ -1245,15 +1307,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Innovation_Center"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Innovation_Hub"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Innovation_Lab"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Innovation_Lab"/>
@@ -1315,7 +1377,21 @@
         <Class IRI="#Innovation_Lab"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#isAppliedin"/>
+            <Class IRI="#Healthcare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Innovation_Lab"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAppliedin"/>
             <Class IRI="#PublicAffairs"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Innovation_Lab"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAppliedin"/>
+            <Class IRI="#Sustainability"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1351,8 +1427,18 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Innovation_Lab"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasObjective"/>
+            <ObjectUnionOf>
+                <Class IRI="#Development"/>
+                <Class IRI="#Innovation"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Innovation_Laboratory"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Instructor"/>
@@ -1402,7 +1488,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Living_Lab"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Living_Lab"/>
@@ -1483,15 +1569,38 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Living_Lab"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#InitiatedBy"/>
-            <ObjectUnionOf>
-                <Class IRI="#Educational_organization"/>
-                <Class IRI="#End-user"/>
-                <Class IRI="#Private_sector"/>
-                <Class IRI="#Public_organization"/>
-            </ObjectUnionOf>
-        </ObjectAllValuesFrom>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAppliedin"/>
+            <Class IRI="#Healthcare"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_Lab"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAppliedin"/>
+            <Class IRI="#PublicAffairs"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_Lab"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAppliedin"/>
+            <Class IRI="#Sustainability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_Lab"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAppliedin"/>
+            <Class IRI="#Tourism"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_Lab"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAppliedin"/>
+            <Class IRI="#Business&amp;Economics"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Living_Lab"/>
@@ -1549,6 +1658,18 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Living_Lab"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isInitiatedBy"/>
+            <ObjectUnionOf>
+                <Class IRI="#Educational_organization"/>
+                <Class IRI="#End-user"/>
+                <Class IRI="#Private_sector"/>
+                <Class IRI="#Public_organization"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_Lab"/>
         <ObjectHasValue>
             <ObjectProperty IRI="#hasTool"/>
             <NamedIndividual IRI="#ICT_infrastructure"/>
@@ -1556,7 +1677,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Living_Laboratory"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Long-term"/>
@@ -1572,7 +1693,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MaterialsScience"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Medium-term"/>
@@ -1580,7 +1701,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Metrology"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Modeled_context"/>
@@ -1600,7 +1721,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Organization"/>
-        <Class IRI="#Actors"/>
+        <Class IRI="#Actor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Outcome"/>
@@ -1608,11 +1729,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#People"/>
-        <Class IRI="#Actors"/>
+        <Class IRI="#Actor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pilot-Scale-Plant"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pilot-scale"/>
@@ -1638,7 +1759,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pilot_Line"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pilot_Line"/>
@@ -1648,6 +1769,13 @@
                 <Class IRI="#virtual"/>
             </ObjectSomeValuesFrom>
         </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilot_Line"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#Engineer"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pilot_Line"/>
@@ -1716,6 +1844,13 @@
         <Class IRI="#Pilot_Line"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasStateCharacteristic"/>
+            <Class IRI="#preliminary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilot_Line"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStateCharacteristic"/>
             <Class IRI="#simulated"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1734,6 +1869,7 @@
                 <Class IRI="#Biochemistry"/>
                 <Class IRI="#Engineering"/>
                 <Class IRI="#EnvironmentStudy"/>
+                <Class IRI="#Energy&amp;Fuels"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1741,7 +1877,7 @@
         <Class IRI="#Pilot_Line"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasActor"/>
-            <Class IRI="#Actors"/>
+            <Class IRI="#Actor"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1793,11 +1929,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pilot_Plant"/>
-        <Class IRI="#DemonstrationEnvironments"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Policy_making"/>
-        <Class IRI="#PublicAffairs"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Private_sector"/>
@@ -1812,17 +1944,6 @@
         <Class IRI="#TangibleOutcome"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Product_development"/>
-        <Class IRI="#Development"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Product_development"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasOutcome"/>
-            <Class IRI="#Product"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Production-scale"/>
         <Class IRI="#Named"/>
     </SubClassOf>
@@ -1832,7 +1953,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Prototype_Plant"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Prototype_Plant"/>
@@ -1881,6 +2002,13 @@
     <SubClassOf>
         <Class IRI="#Prototype_Plant"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStateCharacteristic"/>
+            <Class IRI="#preliminary"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototype_Plant"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasTool"/>
             <Class IRI="#Machinery"/>
         </ObjectSomeValuesFrom>
@@ -1900,6 +2028,7 @@
                 <Class IRI="#Biochemistry"/>
                 <Class IRI="#Engineering"/>
                 <Class IRI="#EnvironmentStudy"/>
+                <Class IRI="#Energy&amp;Fuels"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1944,7 +2073,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Prototyping_Platform"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Prototyping_Platform"/>
@@ -1959,10 +2088,35 @@
         <Class IRI="#Prototyping_Platform"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasActor"/>
-            <ObjectUnionOf>
-                <Class IRI="#Developer"/>
-                <Class IRI="#Researcher"/>
-            </ObjectUnionOf>
+            <Class IRI="#Developer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototyping_Platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#Researcher"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototyping_Platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProcessCharacteristic"/>
+            <Class IRI="#real-time"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototyping_Platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRequirementCharacteristic"/>
+            <Class IRI="#expandable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototyping_Platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRequirementCharacteristic"/>
+            <Class IRI="#modular"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1976,7 +2130,42 @@
         <Class IRI="#Prototyping_Platform"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasStateCharacteristic"/>
+            <Class IRI="#expandable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototyping_Platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStateCharacteristic"/>
+            <Class IRI="#modular"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototyping_Platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStateCharacteristic"/>
+            <Class IRI="#open-source"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototyping_Platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStateCharacteristic"/>
+            <Class IRI="#programmable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototyping_Platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStateCharacteristic"/>
             <Class IRI="#virtual"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prototyping_Platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTool"/>
+            <Class IRI="#Electronic_device"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2021,7 +2210,7 @@
     <SubClassOf>
         <Class IRI="#Provider-driven"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#InitiatedBy"/>
+            <ObjectProperty IRI="#isInitiatedBy"/>
             <Class IRI="#Educational_organization"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2059,7 +2248,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PublicAffairs"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Public_organization"/>
@@ -2102,7 +2291,7 @@
         <Class IRI="#Regulatory_Sandbox"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#isAppliedin"/>
-            <Class IRI="#FinancialTechnology"/>
+            <Class IRI="#Finance"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2169,12 +2358,8 @@
         <Class IRI="#People"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Rural_development"/>
-        <Class IRI="#PublicAffairs"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Sandbox"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sandbox"/>
@@ -2210,7 +2395,7 @@
             <ObjectProperty IRI="#isAppliedin"/>
             <ObjectUnionOf>
                 <Class IRI="#ComputerScience"/>
-                <Class IRI="#FinancialTechnology"/>
+                <Class IRI="#Finance"/>
                 <Class IRI="#Geomorphology"/>
                 <Class IRI="#Healthcare"/>
             </ObjectUnionOf>
@@ -2266,17 +2451,6 @@
         <Class IRI="#IntangibleOutcome"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Service_development"/>
-        <Class IRI="#Development"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Service_development"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasOutcome"/>
-            <Class IRI="#Service"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Short-term"/>
         <Class IRI="#Lifespan"/>
     </SubClassOf>
@@ -2300,12 +2474,12 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Solution"/>
-        <Class IRI="#TangibleOutcome"/>
+        <Class IRI="#Social_Living_Lab"/>
+        <Class IRI="#User-driven"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Solution_development"/>
-        <Class IRI="#Development"/>
+        <Class IRI="#Solution"/>
+        <Class IRI="#TangibleOutcome"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#State"/>
@@ -2313,22 +2487,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sustainability"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#System"/>
         <Class IRI="#TangibleOutcome"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#System_development"/>
-        <Class IRI="#Development"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#System_development"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasOutcome"/>
-            <Class IRI="#System"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TangibleOutcome"/>
@@ -2336,13 +2499,62 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Test_Bench"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#Developer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#Engineer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#Researcher"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProcessCharacteristic"/>
+            <Class IRI="#real-time"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRequirementCharacteristic"/>
+            <Class IRI="#low-cost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRequirementCharacteristic"/>
+            <Class IRI="#reproducible"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Test_Bench"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasSizeScale"/>
             <Class IRI="#Named"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStateCharacteristic"/>
+            <Class IRI="#programmable"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2376,10 +2588,38 @@
     <SubClassOf>
         <Class IRI="#Test_Bench"/>
         <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasEnvironment"/>
+            <Class IRI="#Modeled_context"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasLifespan"/>
             <ObjectUnionOf>
                 <Class IRI="#Medium-term"/>
                 <Class IRI="#Short-term"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasObjective"/>
+            <ObjectUnionOf>
+                <Class IRI="#Assessment_and_diagnosis"/>
+                <Class IRI="#Test_and_experiment"/>
+                <Class IRI="#Validation_and_verification"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Bench"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasOutcome"/>
+            <ObjectUnionOf>
+                <Class IRI="#Knowledge"/>
+                <Class IRI="#Solution"/>
             </ObjectUnionOf>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -2396,7 +2636,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Testbed"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Testbed"/>
@@ -2416,6 +2656,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasActor"/>
             <Class IRI="#Developer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testbed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#Engineer"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2485,6 +2732,13 @@
         <Class IRI="#Testbed"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasRequirementCharacteristic"/>
+            <Class IRI="#expandable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testbed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRequirementCharacteristic"/>
             <Class IRI="#federated"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2506,7 +2760,21 @@
         <Class IRI="#Testbed"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasRequirementCharacteristic"/>
+            <Class IRI="#low-cost"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testbed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRequirementCharacteristic"/>
             <Class IRI="#maneuverable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testbed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRequirementCharacteristic"/>
+            <Class IRI="#reproducible"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2521,6 +2789,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasRequirementCharacteristic"/>
             <Class IRI="#viable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testbed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStateCharacteristic"/>
+            <Class IRI="#expandable"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2562,6 +2837,13 @@
         <Class IRI="#Testbed"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasStateCharacteristic"/>
+            <Class IRI="#programmable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testbed"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStateCharacteristic"/>
             <Class IRI="#realistic"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2588,17 +2870,6 @@
                 <Class IRI="#Engineering"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Testbed"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#InitiatedBy"/>
-            <ObjectUnionOf>
-                <Class IRI="#Developer"/>
-                <Class IRI="#Organization"/>
-                <Class IRI="#Researcher"/>
-            </ObjectUnionOf>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Testbed"/>
@@ -2640,12 +2911,23 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Testbed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isInitiatedBy"/>
+            <ObjectUnionOf>
+                <Class IRI="#Developer"/>
+                <Class IRI="#Organization"/>
+                <Class IRI="#Researcher"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tool_and_facility"/>
         <Class IRI="#Component"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tourism"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Urban_Living_Lab"/>
@@ -2666,10 +2948,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Urban_development"/>
-        <Class IRI="#PublicAffairs"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#User-driven"/>
         <Class IRI="#Living_Lab"/>
     </SubClassOf>
@@ -2686,16 +2964,6 @@
             <ObjectProperty IRI="#hasStateCharacteristic"/>
             <Class IRI="#territorial"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#User-driven"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#InitiatedBy"/>
-            <ObjectUnionOf>
-                <Class IRI="#Community"/>
-                <Class IRI="#End-user"/>
-            </ObjectUnionOf>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#User-driven"/>
@@ -2722,6 +2990,16 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#User-driven"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isInitiatedBy"/>
+            <ObjectUnionOf>
+                <Class IRI="#Community"/>
+                <Class IRI="#End-user"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Utilizer-driven"/>
         <Class IRI="#Living_Lab"/>
     </SubClassOf>
@@ -2738,13 +3016,6 @@
             <ObjectProperty IRI="#hasRequirementCharacteristic"/>
             <Class IRI="#rapid"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Utilizer-driven"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#InitiatedBy"/>
-            <Class IRI="#Private_sector"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Utilizer-driven"/>
@@ -2780,8 +3051,54 @@
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Utilizer-driven"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isInitiatedBy"/>
+            <Class IRI="#Private_sector"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Validation_and_verification"/>
         <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation_and_verification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isObjectiveOf"/>
+            <Class IRI="#Demonstration_Plant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation_and_verification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isObjectiveOf"/>
+            <Class IRI="#Prototype_Plant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation_and_verification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isObjectiveOf"/>
+            <Class IRI="#Prototyping_Platform"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation_and_verification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isObjectiveOf"/>
+            <Class IRI="#Test_Bench"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Validation_and_verification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isObjectiveOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Pilot-Scale-Plant"/>
+                <Class IRI="#Pilot_Line"/>
+                <Class IRI="#Pilot_Plant"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#agile"/>
@@ -2818,6 +3135,14 @@
     <SubClassOf>
         <Class IRI="#emulation"/>
         <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#expandable"/>
+        <Class IRI="#Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#expandable"/>
+        <Class IRI="#State"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#facilitation"/>
@@ -2873,6 +3198,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#locomotive"/>
+        <Class IRI="#Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low-cost"/>
         <Class IRI="#Requirement"/>
     </SubClassOf>
     <SubClassOf>
@@ -2932,6 +3261,14 @@
         <Class IRI="#Requirement"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#preliminary"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#programmable"/>
+        <Class IRI="#State"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#rapid"/>
         <Class IRI="#Process"/>
     </SubClassOf>
@@ -2953,6 +3290,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#reliable"/>
+        <Class IRI="#Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reproducible"/>
         <Class IRI="#Requirement"/>
     </SubClassOf>
     <SubClassOf>
@@ -3013,15 +3354,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#﻿Microelectronic"/>
-        <Class IRI="#ApplicationDomains"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#﻿extensible"/>
-        <Class IRI="#Requirement"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#﻿extensible"/>
-        <Class IRI="#State"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#﻿interoperable"/>
@@ -3030,14 +3363,14 @@
     <SubClassOf>
         <Class IRI="#﻿interoperable"/>
         <Class IRI="#State"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#﻿reproducible"/>
-        <Class IRI="#Requirement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Business&amp;Economics"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energy&amp;Fuels"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hardware&amp;Software"/>
@@ -3045,7 +3378,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LegalAffairs&amp;Regulations"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Bench-scale"/>
@@ -3148,8 +3481,24 @@
         <NamedIndividual IRI="#City"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Electronic_device"/>
+        <NamedIndividual IRI="#Converter"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Hardware&amp;Software"/>
         <NamedIndividual IRI="#Cyber-physical_hardware"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Electronic_device"/>
+        <NamedIndividual IRI="#Demodulator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Demonstration_Plant"/>
+        <NamedIndividual IRI="#Demonstration_Plant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machinery"/>
+        <NamedIndividual IRI="#Gasifier"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Community"/>
@@ -3170,6 +3519,10 @@
     <ClassAssertion>
         <Class IRI="#Community"/>
         <NamedIndividual IRI="#Local_housing_community"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machine_operator"/>
+        <NamedIndividual IRI="#Machine_operator"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Assessment_and_diagnosis"/>
@@ -3200,12 +3553,20 @@
         <NamedIndividual IRI="#Policy"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Electronic_device"/>
+        <NamedIndividual IRI="#Processor"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Validation_and_verification"/>
         <NamedIndividual IRI="#Proof-of-concept"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Prototyping_Platform"/>
         <NamedIndividual IRI="#Raspberry_Pi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machinery"/>
+        <NamedIndividual IRI="#Reactor"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Educational_organization"/>
@@ -3216,12 +3577,20 @@
         <NamedIndividual IRI="#Resident"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Machinery"/>
+        <NamedIndividual IRI="#Robotics"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Modeled_context"/>
         <NamedIndividual IRI="#Simulation"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Developer"/>
         <NamedIndividual IRI="#Software_developer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Machinery"/>
+        <NamedIndividual IRI="#Steam_generator"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#End-user"/>
@@ -3248,6 +3617,10 @@
         <NamedIndividual IRI="#Vulnerability_assessment"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Electronic_device"/>
+        <NamedIndividual IRI="#Wire_cutter"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Hardware&amp;Software"/>
         <NamedIndividual IRI="#Wireless_communication"/>
     </ClassAssertion>
@@ -3259,13 +3632,14 @@
         <NamedIndividual IRI="#Android"/>
         <NamedIndividual IRI="#IOS"/>
     </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Demonstration_Plant"/>
+        <NamedIndividual IRI="#Machine_operator"/>
+    </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#SizeComparison"/>
         <ObjectProperty IRI="#hasValue"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#arePeopleOf"/>
-        <ObjectProperty IRI="#isComponentOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasActor"/>
@@ -3281,6 +3655,10 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasObjective"/>
+        <ObjectProperty IRI="#hasComponent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOutcome"/>
         <ObjectProperty IRI="#hasComponent"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -3304,7 +3682,7 @@
         <ObjectProperty IRI="#hasComponent"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#isActivityOf"/>
+        <ObjectProperty IRI="#isActorOf"/>
         <ObjectProperty IRI="#isComponentOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -3320,6 +3698,22 @@
         <ObjectProperty IRI="#isValueOf"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isObjectiveOf"/>
+        <ObjectProperty IRI="#isComponentOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOutcomeOf"/>
+        <ObjectProperty IRI="#isComponentOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isProcessCharacteristicOf"/>
+        <ObjectProperty IRI="#isCharacteristicOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isRequirementCharacteristicOf"/>
+        <ObjectProperty IRI="#isCharacteristicOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#isSizeScaleOf"/>
         <ObjectProperty IRI="#isValueOf"/>
     </SubObjectPropertyOf>
@@ -3328,12 +3722,20 @@
         <ObjectProperty IRI="#SizeComparison"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isStateCharacteristicOf"/>
+        <ObjectProperty IRI="#isCharacteristicOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#isToolOf"/>
         <ObjectProperty IRI="#isComponentOf"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#Apply"/>
+        <ObjectProperty IRI="#Applies"/>
         <ObjectProperty IRI="#isAppliedin"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+        <ObjectProperty IRI="#isCharacteristicOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasComponent"/>
@@ -3367,35 +3769,39 @@
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCharacteristic"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasOutcome"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasOutcome"/>
         <Class IRI="#Objective"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasValue"/>
+        <Class IRI="#DemonstrationEnvironment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isAppliedin"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isComponentOf"/>
         <Class IRI="#Component"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInitiatedBy"/>
+        <Class IRI="#DemonstrationEnvironment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isSizeScaleOf"/>
         <Class IRI="#SizeScale"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#UsedIn"/>
-        <Class IRI="#DemonstrationEnvironments"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasActor"/>
-        <Class IRI="#Actors"/>
+        <Class IRI="#Actor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCharacteristic"/>
@@ -3430,17 +3836,106 @@
         <Class IRI="#Tool_and_facility"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasValue"/>
+        <Class IRI="#ValuePartition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#isAppliedin"/>
-        <Class IRI="#ApplicationDomains"/>
+        <Class IRI="#ApplicationDomain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInitiatedBy"/>
+        <Class IRI="#Actor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isSizeScaleOf"/>
-        <Class IRI="#DemonstrationEnvironments"/>
+        <Class IRI="#DemonstrationEnvironment"/>
     </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ForSize"/>
+        <Class IRI="#SizeScale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ForTime"/>
+        <Class IRI="#Lifespan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ForSize"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ForTime"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ApplicationDomain</IRI>
+        <Literal>Describes the common application domains of Demonstration Environments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biochemistry</IRI>
+        <Literal>Biochemistry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Characteristics</IRI>
+        <Literal>Defines all types of characteristics to describe the DE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Component</IRI>
+        <Literal>Defines the network component surrounding the DEs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ComputerScience</IRI>
+        <Literal>ComputerScience</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DemonstrationEnvironment</IRI>
+        <Literal>This class defines different named DEs</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Demonstration_Plant</IRI>
         <Literal>A plant used to demonstrate the commercial feasibility of the process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Engineering</IRI>
+        <Literal>Engineering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EnvironmentStudy</IRI>
+        <Literal>EnvironmentStudy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Finance</IRI>
+        <Literal>Finance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geomorphology</IRI>
+        <Literal>Geomorphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Healthcare</IRI>
+        <Literal>Healthcare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MaterialsScience</IRI>
+        <Literal>MaterialScience</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Metrology</IRI>
+        <Literal>Metrology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3453,9 +3948,19 @@
         <Literal>Pilot-plant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PublicAffairs</IRI>
+        <Literal>PublicAffairs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Regulatory_Sandbox</IRI>
         <Literal>Testing products/solutions/models under a set of rules, supervision requirements, and appropriate safeguards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sustainability</IRI>
+        <Literal>Sustainability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasDifferentSpelling"/>
@@ -3468,9 +3973,29 @@
         <Literal>Tools and facilities used in the DEs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tourism</IRI>
+        <Literal>Tourism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ValuePartition</IRI>
+        <Literal>Defines a set of value scales that are used to describe the DE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#real-time</IRI>
         <Literal>the process can capture real-time information/outcome from the DE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Business&amp;Economics</IRI>
+        <Literal>Business&amp;Economics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LegalAffairs&amp;Regulations</IRI>
+        <Literal>LegalAffairs&amp;Regulations</Literal>
     </AnnotationAssertion>
 </Ontology>
 
