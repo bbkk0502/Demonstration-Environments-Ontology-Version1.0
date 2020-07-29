@@ -17,6 +17,8 @@ HermiT Reasoner 1.4.3.456
 # Use Case
 An use case of quering DEs that support tasks of assessment and diagnosis is defined in this DE ontology. 
 
+![alt text](https://github.com/bbkk0502/Demonstration-Environments-Ontology-Version1.0/blob/master/use%20case.png)
+
 # Feedback
 
 Please feedback or report bugs to wn230@cam.ac.uk
