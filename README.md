@@ -10,14 +10,16 @@ This thesis aims to develop an ontology for Demonstration Environments by using 
 
 # System requirement
 
-Protege 5.5.0 
+Protégé 5.5.0 
 
 HermiT Reasoner 1.4.3.456
 
 # Use Case
-An use case of quering DEs that support tasks of assessment and diagnosis is defined in this DE ontology. 
+An use case of quering DEs that support tasks of assessment and diagnosis is defined in this DE ontology. This is enabled by SPARQL Query. Malware analysis is an defined individual for Class 'Assessment_and_diagnosis', a set of DE individuals including 'cyber_security_testbed' is defined to support malware analysis. Figure below shows how this information can be queried in SPARQL Query Tab in Protégé.
 
 ![alt text](https://github.com/bbkk0502/Demonstration-Environments-Ontology-Version1.0/blob/master/use%20case.png)
+
+This ontology can be further instantiated to support more query through SPARQL.
 
 # Feedback
 
