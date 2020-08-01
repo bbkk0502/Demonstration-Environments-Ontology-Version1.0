@@ -18,7 +18,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="cam.ac.uk">This Demonstration Environments ontology is developed by Nie Wei a MPhil student at the Institute for Manufacturing, University of Cambridge. Email: wn230</Literal>
+        <Literal xml:lang="cam.ac.uk">This Demonstration Environments ontology is developed by Nie Wei a MPhil student at the Institute for Manufacturing, University of Cambridge. Email: wn230@cam.ac.uk</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
@@ -845,22 +845,6 @@
     <EquivalentClasses>
         <Class IRI="#Innovation_Hub"/>
         <Class IRI="#Innovation_Lab"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Named"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Size_Scale"/>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#isSizeScaleOf"/>
-                <ObjectUnionOf>
-                    <Class IRI="#Demonstration_Plant"/>
-                    <Class IRI="#Pilot_Line"/>
-                    <Class IRI="#Pilot_Plant"/>
-                    <Class IRI="#Pilot_Scale_Plant"/>
-                    <Class IRI="#Testbench"/>
-                </ObjectUnionOf>
-            </ObjectAllValuesFrom>
-        </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#Pilot_Line"/>
@@ -1908,6 +1892,19 @@
     <SubClassOf>
         <Class IRI="#Named"/>
         <Class IRI="#Size_Scale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Named"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isSizeScaleOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Demonstration_Plant"/>
+                <Class IRI="#Pilot_Line"/>
+                <Class IRI="#Pilot_Plant"/>
+                <Class IRI="#Pilot_Scale_Plant"/>
+                <Class IRI="#Testbench"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Non-governmental_organization"/>
