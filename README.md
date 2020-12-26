@@ -23,4 +23,4 @@ This ontology can be further instantiated to support more query through SPARQL.
 
 # Feedback
 
-Please feedback or report bugs to wn230@cam.ac.uk
+Please feedback or report bugs to niewei090414@gmail.com
