@@ -8,7 +8,7 @@ This Demonstration Environments ontology is developed by Nie Wei a MPhil student
 ## Project Introduction
 This thesis aims to develop an ontology for Demonstration Environments by using a semi-automatic approach: Word Embeddings. The ontology development process is available at https://github.com/bbkk0502/Word2vec-model-for-ontology-construction
 
-## System requirement
+## System Requirement
 
 Protégé 5.5.0 
 
