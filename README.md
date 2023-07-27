@@ -21,6 +21,6 @@ An use case of quering DEs that support tasks of assessment and diagnosis is def
 
 This ontology can be further instantiated to support more query through SPARQL.
 
-#Contribute to this Ontology
+## Contribute to this Ontology
 If you would like to suggest any changes to this ontology, please submit a pull request via the test branch. 
 
