@@ -6,7 +6,7 @@ This ontology can be visualised in WebVOWL via https://service.tib.eu/webvowl/#o
 
 
 ## Project Introduction
-This thesis aims to develop an ontology for Demonstration Environments by using a semi-automatic approach: Word Embeddings. The ontology development process is available at https://github.com/bbkk0502/Word2vec-model-for-ontology-construction
+This thesis aims to develop an ontology for Demonstration Environments by using a semi-automatic approach: Word Embeddings. The ontology development process is available at https://github.com/bbkk0502/Word2vec-model-for-ontology-construction. Besides, we have documented the entire research data in OSF, it can be accessed via https://osf.io/y9nem/.
 
 ## System Requirement
 
